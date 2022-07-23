@@ -1,0 +1,12 @@
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\bin\Debug\net6.0\BulkyBook.Util.deps.json
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\bin\Debug\net6.0\BulkyBook.Util.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\bin\Debug\net6.0\BulkyBook.Util.pdb
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\BulkyBook.Util.csproj.AssemblyReference.cache
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\BulkyBook.Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\BulkyBook.Util.AssemblyInfoInputs.cache
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\BulkyBook.Util.AssemblyInfo.cs
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\BulkyBook.Util.csproj.CoreCompileInputs.cache
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\BulkyBook.Util.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\refint\BulkyBook.Util.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\BulkyBook.Util.pdb
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.Util\obj\Debug\net6.0\ref\BulkyBook.Util.dll

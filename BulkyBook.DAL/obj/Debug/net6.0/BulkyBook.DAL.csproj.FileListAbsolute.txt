@@ -1,0 +1,17 @@
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.csproj.AssemblyReference.cache
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.AssemblyInfoInputs.cache
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.AssemblyInfo.cs
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.csproj.CoreCompileInputs.cache
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\bin\Debug\net6.0\BulkyBook.DAL.deps.json
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\bin\Debug\net6.0\BulkyBook.DAL.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\bin\Debug\net6.0\BulkyBook.DAL.pdb
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\bin\Debug\net6.0\BulkyBook.Models.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\bin\Debug\net6.0\BulkyBook.Models.pdb
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.csproj.CopyComplete
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\refint\BulkyBook.DAL.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.pdb
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\ref\BulkyBook.DAL.dll
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\bin\Debug\net6.0\BulkyBook.DAL.runtimeconfig.json
+C:\Users\malik\source\repos\BulkyBook\BulkyBook.DAL\obj\Debug\net6.0\BulkyBook.DAL.genruntimeconfig.cache
