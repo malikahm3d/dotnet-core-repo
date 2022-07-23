@@ -1,0 +1,42 @@
+﻿
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    ViewData["Title"] = "create";
+}
+@if(TempData["success"] != null)
+{
+    <h2>@TempData["success"]</h2>
+}
+<h1>Index of Kategory</h1>
+<table class="table table-bordered table-striped">
+   <thead>
+       <tr>
+           <th>
+               Category Name
+           </th>
+           <th>
+               Disply order
+           </th>
+       </tr>
+   </thead>
+   <tbody>
+        @foreach(Category cat in Model)
+        {
+            <tr>
+                <td>
+                    @cat.Name
+                </td>
+                <td>
+                    @cat.DisplayOrder
+                     <a asp-action="Edit" asp-route-id="@cat.Id">    Edit</a>
+                     <form asp-action="Delete" asp-route-id="@cat.Id" method="POST">
+                         <input type="submit" value="Delete" class="btn-primary btn-danger">
+                     </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
