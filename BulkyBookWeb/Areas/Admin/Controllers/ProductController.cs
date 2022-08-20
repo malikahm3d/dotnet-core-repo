@@ -32,14 +32,14 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Product pro)
+        public IActionResult Edit(ProductVM obj)
         {
 
             if (!ModelState.IsValid)
             {
                 return BadRequest();   
             }
-            _uow.Product.Update(pro);
+            _uow.Product.Update(obj.Product);
             _uow.Save();
             return RedirectToAction("Index", "Product");
         }
@@ -98,7 +98,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             //        Value = u.Id.ToString(),
             //    });
 
-            if(id == null || id == 0)
+            if(obj.Product.Id == null || obj.Product.Id == 0)
             {
                 //// create product
                 //ViewBag.CategoryList = CategoryList;
