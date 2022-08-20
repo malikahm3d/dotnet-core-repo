@@ -12,9 +12,12 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _uow;
-        public ProductController(IUnitOfWork uow)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+         
+        public ProductController(IUnitOfWork uow, IWebHostEnvironment webHostEnvironment)
         {
             _uow = uow;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult Index()
@@ -41,12 +44,35 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             return RedirectToAction("Index", "Product");
         }
 
-        public IActionResult Upsert(int? id)
+        public IActionResult Upsert(ProductVM obj, IFormFile? file)
         {
-
-            ProductVM productVM = new()
+            string wwwRootPath = _webHostEnvironment.WebRootPath;
+            if (file != null)
             {
-                product = new(),
+                string fileName = Guid.NewGuid().ToString();
+                var uploads = Path.Combine(wwwRootPath, @"images\products");
+                var extension = Path.GetExtension(file.FileName);
+
+                if (obj.Product.ImageUrl != null)
+                {
+                    var oldImagePath = Path.Combine(wwwRootPath, obj.Product.ImageUrl.TrimStart('\\'));
+                    if (System.IO.File.Exists(oldImagePath))
+                    {
+                        System.IO.File.Delete(oldImagePath);
+                    }
+                }
+
+                using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                {
+                    file.CopyTo(fileStreams);
+                }
+                obj.Product.ImageUrl = @"\images\products\" + fileName + extension;
+
+
+
+                ProductVM productVM = new()
+            {
+                Product = new(),
                 CategoryList = _uow.Category.GetAll().Select(i => new SelectListItem
                 {
                     Text = i.Name,
